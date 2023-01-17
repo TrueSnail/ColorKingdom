@@ -162,7 +162,7 @@ a {
 }
 
 #navbar div img {
-	padding-left: 28.66px;
+	margin-left: 28.66px;
 }
 /* #endregion */
 
@@ -465,7 +465,7 @@ a {
 
 	#navbar div img {
 		width: 28px;
-		padding-left: 32px;
+		margin-left: 32px;
 	}
 	/* #endregion */
 
@@ -679,7 +679,7 @@ a {
 
 	#navbar div img {
 		width: 35px;
-		padding-left: 63px;
+		margin-left: 63px;
 	}
 	/* #endregion */
 
@@ -887,6 +887,13 @@ a {
 		justify-content: space-between;
 	}
 
+	.icon:hover {
+		transform: scale(1.1);
+	}
+
+	.button:hover {
+		background: linear-gradient(280.93deg, #263AE0 0%, #FF0000 100%)
+	}
 }
 
 @media only screen and (min-width: 1440px) {
