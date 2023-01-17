@@ -940,6 +940,7 @@ a {
 		background-image: url("resource/Title_gradient_extended.webp");
 		width: 1694px;
 		height: 962px;
+		pointer-events: none;
 		left: calc(100vw / 2 - 847px);
 	}
 	
