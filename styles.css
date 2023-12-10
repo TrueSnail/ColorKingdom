@@ -932,16 +932,28 @@ a {
 		width: 100%;
 		height: 137px;
 	}
+
+	#title_gradient_overlap {
+		position: absolute;
+		background-image: url("resource/Title_gradient_extended.webp");
+		width: calc((1694px - 100vw) / 2 + 100vw);
+		height: 962px;
+		pointer-events: none;
+		left: calc(100vw / 2 - 847px);
+	}
 }
 
 @media only screen and (min-width: 1694px) {
 	#title_gradient_overlap {
+		width: 1694px;
+	}
+	/* #title_gradient_overlap {
 		position: absolute;
 		background-image: url("resource/Title_gradient_extended.webp");
 		width: 1694px;
 		height: 962px;
 		pointer-events: none;
 		left: calc(100vw / 2 - 847px);
-	}
+	} */
 	
 }
